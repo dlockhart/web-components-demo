@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "es-dev-server --app-index index.html --node-resolve --watch",
-    "vdiff": "mocha ./test/vdiff.test.js -t 40000",
-    "vdiff:golden": "mocha ./test/vdiff.test.js -t 40000 --golden"
+    "visual-diff": "mocha ./test/vdiff.test.js -t 40000",
+    "visual-diff:golden": "mocha ./test/vdiff.test.js -t 40000 --golden"
   },
   "author": "Dave Lockhart",
   "license": "Apache-2.0",
