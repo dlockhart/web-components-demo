@@ -4,6 +4,26 @@ Basic demonstration of building a web component using vanilla JavaScript compare
 
 Also integrates some [visual diff testing](https://github.com/BrightspaceUI/visual-diff).
 
+## Resources
+
+### Web Components
+
+* [Vanilla Custom Elements Overview](https://developers.google.com/web/fundamentals/web-components/customelements)
+* [Open-WC Project](https://open-wc.org/)
+* [Polyfill](https://github.com/webcomponents/polyfills/tree/master/packages/webcomponentsjs)
+* [LitElement](https://lit-element.polymer-project.org/)
+* [LitHtml](https://lit-html.polymer-project.org/guide)
+* [Custom Elements Everywhere](https://custom-elements-everywhere.com/)
+
+### Visual Diff
+
+* [Visual Diff Library](https://github.com/BrightspaceUI/visual-diff)
+* [Puppeteer](https://github.com/puppeteer/puppeteer)
+* [PixelMatch](https://github.com/mapbox/pixelmatch)
+* [Percy.io](https://percy.io/)
+* [Chromatic](https://www.chromaticqa.com/)
+* [SauceLabs](https://saucelabs.com/)
+
 ## Setup
 
 Clone the repo and run:
