@@ -1,0 +1,23 @@
+{
+  "name": "web-components-demo",
+  "version": "1.0.0",
+  "description": "Demos vanilla JavaScript web components vs. LitElement",
+  "main": "index.js",
+  "scripts": {
+    "start": "es-dev-server --app-index index.html --node-resolve --watch",
+    "vdiff": "mocha ./test/vdiff.test.js -t 40000",
+    "vdiff:golden": "mocha ./test/vdiff.test.js -t 40000 --golden"
+  },
+  "author": "Dave Lockhart",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2",
+    "lit-element": "^2"
+  },
+  "devDependencies": {
+    "@brightspace-ui/visual-diff": "^1",
+    "es-dev-server": "^1",
+    "mocha": "^6",
+    "puppeteer": "^2"
+  }
+}
