@@ -84,6 +84,20 @@ class ButtonSubtle extends HTMLElement {
 		}
 	}
 
+	get src() {
+		return this.getAttribute('src');
+	}
+	set src(val) {
+		this.setAttribute('src', val);
+	}
+
+	get text() {
+		return this.getAttribute('text');
+	}
+	set text(val) {
+		this.setAttribute('text', val);
+	}
+
 }
 
 customElements.define('button-subtle', ButtonSubtle);
