@@ -59,7 +59,6 @@ class ButtonSubtle extends HTMLElement {
 	// called when an observed attribute has been added
 	// removed, updated or replaced
 	attributeChangedCallback(attrName, oldVal, newVal) {
-		console.log('attrChanged', attrName, oldVal, newVal);
 		if (attrName === 'text') {
 			this._text.innerText = newVal;
 			this._button.setAttribute('title', newVal);
