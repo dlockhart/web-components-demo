@@ -10,6 +10,7 @@ describe('button-subtle', () => {
 	before(async() => {
 		browser = await puppeteer.launch();
 		page = await browser.newPage();
+		await page.setViewport({width: 800, height: 800, deviceScaleFactor: 2});
 		await page.goto(`${visualDiff.getBaseUrl()}/test/index.html`, {waitUntil: ['networkidle0', 'load']});
 		await page.bringToFront();
 	});
